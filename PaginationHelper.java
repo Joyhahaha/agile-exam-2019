@@ -9,7 +9,7 @@ public class PaginationHelper<I> {
 
     private List<I> collection;
     private int itemsPerPage;
-    private int sum;
+    private int sum_coll_elem;
     private int page_counts;
     private  int currElem;
     private  int PageIndex;
@@ -28,8 +28,8 @@ public class PaginationHelper<I> {
      * 返回collection中所有元素的个数
      */
     public int itemCount() {
-        sum = collection.size();
-        return sum;
+        sum_coll_elem = collection.size();
+        return sum_coll_elem;
     }
 
     /**
