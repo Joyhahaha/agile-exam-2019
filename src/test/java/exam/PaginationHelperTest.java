@@ -33,7 +33,7 @@ public class PaginationHelperTest {
     }
 
     @Test
-    public void ShouldGetPageIndex() {
+    public void ShouldGetPageIndex() { 
         /**
          *  TODO：请使用Assert语句描述以下测试
          * helper.pageIndex(5); //should == 1 (zero based index)
